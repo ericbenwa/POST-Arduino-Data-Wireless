@@ -40,9 +40,7 @@ Getting Started
 6. Connect the Arduino WiFi shield to your Arduino<br />
 7. Connect your Arduino to your computer using your USB cable<br />
 8. Upload your sketch to your Arduino<br />
-<br />
-<br />
-You should now be POSTing data from your Arduino to your MySQL database.<br />
+9. You should now be POSTing data from your Arduino to your MySQL database. Yippee!<br />
 
 
 Credits
@@ -50,4 +48,4 @@ Credits
 
 <a href="https://github.com/dk4invo">Dhaval Karwa</a><br />
 <a href="https://github.com/bsalinas">Ben Salinas</a><br />
-and the interwebs and the great tutorials available
+and the interwebs with the great tutorials available
