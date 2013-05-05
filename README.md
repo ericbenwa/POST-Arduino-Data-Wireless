@@ -5,14 +5,14 @@ A simple way to send data from an Arduino and save it in a database (MySQL), ove
 
 
 Items You'll Need
-=================
+-------------
 Arduino (Uno or similar)
 Arduino WiFi Shield
 USB cable for Arduino
 
 
 Getting Started
-=================
+-------------
 
 Setup MySQL Database
 1. Create MySQL Database
@@ -32,9 +32,8 @@ Setup INSERT script
 
 
 Credits
-=================
+-------------
 
 Dhaval Karwa
 Ben Salinas
-
-+ the interwebs
++ the interwebs and the amazing tutorials available
