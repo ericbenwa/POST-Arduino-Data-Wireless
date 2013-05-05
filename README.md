@@ -1,7 +1,7 @@
 POST-Arduino-Data
 =================
 
-A simple way to send data from an Arduino and save it to a database (MySQL), over WiFi. 
+A simple way to send data from an Arduino and save it to a database (MySQL) over WiFi. 
 
 
 Items You'll Need
