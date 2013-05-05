@@ -22,7 +22,7 @@ Getting Started
 4. Give newly created MySQL User full privileges to your newly created MySQL Database<br />
 5. Create a table for your database<br />
 6. Add 2 columns to your table: `yourdata`, `timestamp`<br />
-7. For timestamp column, change the `type` to `DATETIME` and the index to `PRIMARY`<br />
+7. For timestamp column, change the `type` to `DATETIME` and the `index` to `PRIMARY`<br />
 <br />
 
 ### Edit INSERT script<br />
