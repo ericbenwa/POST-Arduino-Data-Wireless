@@ -8,7 +8,7 @@ int status = WL_IDLE_STATUS;
 WiFiClient client;
 
 // EDIT: 'Server' address to match your domain
-char server[] = "www.yourdomain.com";
+char server[] = "www.yourdomain.com"; // This could also be 192.168.1.18/~me if you are running a server on your computer on a local network.
 
 // This is the data that will be passed into your POST and matches your mysql column
 int yourarduinodata = 999;
