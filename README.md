@@ -28,6 +28,13 @@ Getting Started
 ### Edit INSERT script<br />
 1. Download `insert_mysql.php`<br />
 2. Edit the `$username`, `$password`, `$database`, and `$tablename` to match your setup<br />
+```
+$username = "test_user";
+$password = "test_password";
+$database = "test_db_name_here";
+$tablename = "test_table_name_here";
+$localhost = "localhost";
+```
 3. Upload `insert_mysql.php` to your web-host (remember this URL for later)<br />
 <br />
 
@@ -35,12 +42,21 @@ Getting Started
 1. Download arduino_post/arduino_post.ino<br />
 2. Edit `yournetwork` (wireless network), `yourpassword` (wireless password) to connect to your router<br />
 ```
-char ssid[] = "yournetwork";  // your network SSID name <br />
+char ssid[] = "yournetwork";  // your network SSID name
 char pass[] = "yourpassword"; // your network password
 ```
 3. Edit www.yourdomain.com (for `char server[]`) to the domain you are hosting insert_mysql.php (not the full path to the file)<br />
+```
+char server[] = "www.yourdomain.com";
+```
 4. Edit the POST url to match the path to `insert_mysql.php`<br />
+```
+client.println("POST /insert_mysql.php HTTP/1.1");
+```
 5. Edit the Host: www.yourdomain.com to the domain you are hosting `insert_mysql.php` (not the full path to the file) 
+```
+client.println("Host: www.yourdomain.com");
+```
 6. Connect the Arduino WiFi shield to your Arduino<br />
 7. Connect your Arduino to your computer using your USB cable<br />
 8. Upload your sketch to your Arduino<br />
