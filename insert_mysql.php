@@ -7,15 +7,12 @@ foreach ($_REQUEST as $key => $value)
 	}
 }
 
-//
 // EDIT: Your mysql database account information
-//
-$username="test";
-$password="testing1";
-$database="test_db_name_here";
+$username = "test_user";
+$password = "test_password";
+$database = "test_db_name_here";
 $tablename = "test_table_name_here";
-$localhost="localhost";
-
+$localhost = "localhost";
 
 // Check Connection to Database
 if (mysql_connect($localhost, $username, $password))
