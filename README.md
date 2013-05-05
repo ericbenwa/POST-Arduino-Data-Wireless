@@ -42,7 +42,7 @@ Getting Started
 8. Upload your sketch to your Arduino<br />
 <br />
 <br />
-You should now be POSTing data from your Arduino to your MySQL database.
+You should now be POSTing data from your Arduino to your MySQL database.<br />
 
 
 Credits
@@ -50,4 +50,4 @@ Credits
 
 <a href="https://github.com/dk4invo">Dhaval Karwa</a><br />
 <a href="https://github.com/bsalinas">Ben Salinas</a><br />
-the interwebs and the great tutorials available
+and the interwebs and the great tutorials available
