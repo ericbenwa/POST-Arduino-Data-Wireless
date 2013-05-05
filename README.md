@@ -34,6 +34,10 @@ Getting Started
 ### POST Arduino data to MySQL Database<br />
 1. Download arduino_post/arduino_post.ino<br />
 2. Edit `yournetwork` (wireless network), `yourpassword` (wireless password) to connect to your router<br />
+```
+char ssid[] = "yournetwork";  // your network SSID name
+char pass[] = "yourpassword"; // your network password
+```
 3. Edit www.yourdomain.com (for `char server[]`) to the domain you are hosting insert_mysql.php (not the full path to the file)<br />
 4. Edit the POST url to match the path to `insert_mysql.php`<br />
 5. Edit the Host: www.yourdomain.com to the domain you are hosting `insert_mysql.php` (not the full path to the file) 
