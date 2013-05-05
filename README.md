@@ -48,4 +48,4 @@ Credits
 
 <a href="https://github.com/dk4invo">Dhaval Karwa</a><br />
 <a href="https://github.com/bsalinas">Ben Salinas</a><br />
-and the interwebs with the great tutorials available
+<a href="http://arduino.cc/en/Tutorial/WiFiWebClientRepeating">Tom Igoe's WiFiWebClientRepeating sketch</a>
