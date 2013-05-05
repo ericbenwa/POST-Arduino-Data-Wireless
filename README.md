@@ -14,7 +14,7 @@ USB cable for Arduino
 Getting Started
 -------------
 
-Setup MySQL Database<br />
+### Setup MySQL Database<br />
 1. Create MySQL Database<br />
 2. Create MySQL User<br />
 3. Give newly created MySQL User access to your newly created MySQL Database<br />
@@ -23,7 +23,7 @@ Setup MySQL Database<br />
 6. Add 2 columns to your table: yourdata, timestamp<br />
 7. For timestamp column, change the 'type' to 'DATETIME' and the index to 'PRIMARY'<br />
 <br />
-Setup INSERT script<br />
+### Setup INSERT script<br />
 1.
 
 
