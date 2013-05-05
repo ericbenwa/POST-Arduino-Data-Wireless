@@ -24,12 +24,14 @@ Getting Started
 6. Add 2 columns to your table: yourdata, timestamp<br />
 7. For timestamp column, change the 'type' to 'DATETIME' and the index to 'PRIMARY'<br />
 <br />
+
 ### Edit INSERT script<br />
 1. Download insert_mysql.php<br />
 2. Edit the username, password, database, and table to match your setup<br />
 3. Upload insert_mysql.php to your web-host<br />
 <br />
 <br />
+
 ### POST Arduino data to MySQL Database<br />
 1. Download arduino_post/arduino_post.ino<br />
 2. Edit yournetwork (wireless network), yourpassword (wireless password) to connect to your router<br />
