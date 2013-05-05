@@ -45,7 +45,7 @@ $localhost = "localhost";
 char ssid[] = "yournetwork";  // wireless network name
 char password[] = "yourpassword"; // wireless password
 ```
-3. Edit www.yourdomain.com (for `char server[]`) to the domain you are hosting insert_mysql.php (not the full path to the file)<br />
+3. Edit `www.yourdomain.com` (for `char server[]`) to the domain you are hosting insert_mysql.php (not the full path to the file)<br />
 ```
 char server[] = "www.yourdomain.com";
 ```
@@ -53,10 +53,7 @@ char server[] = "www.yourdomain.com";
 ```
 client.println("POST /insert_mysql.php HTTP/1.1");
 ```
-5. Edit the Host: www.yourdomain.com to the domain you are hosting `insert_mysql.php` (not the full path to the file) 
-```
-client.println("Host: www.yourdomain.com");
-```
+5. Edit `www.yourdomain.com` for `("Host: www.yourdomain.com");` to the domain you are hosting `insert_mysql.php` (not the full path to the file) 
 6. Connect the Arduino WiFi shield to your Arduino<br />
 7. Connect your Arduino to your computer using your USB cable<br />
 8. Upload your sketch to your Arduino<br />
