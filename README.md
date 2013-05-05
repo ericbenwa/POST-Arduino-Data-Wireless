@@ -27,7 +27,7 @@ Getting Started
 
 ### Edit INSERT script<br />
 1. Download `insert_mysql.php`<br />
-2. Edit the `$username`, `$password`, `$database`, and table to match your setup<br />
+2. Edit the `$username`, `$password`, `$database`, and `$tablename` to match your setup<br />
 3. Upload `insert_mysql.php` to your web-host (remember this URL for later)<br />
 <br />
 
