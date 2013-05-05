@@ -35,7 +35,7 @@ Getting Started
 1. Download arduino_post/arduino_post.ino<br />
 2. Edit `yournetwork` (wireless network), `yourpassword` (wireless password) to connect to your router<br />
 ```
-char ssid[] = "yournetwork";  // your network SSID name
+char ssid[] = "yournetwork";  // your network SSID name <br />
 char pass[] = "yourpassword"; // your network password
 ```
 3. Edit www.yourdomain.com (for `char server[]`) to the domain you are hosting insert_mysql.php (not the full path to the file)<br />
