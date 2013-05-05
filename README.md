@@ -40,7 +40,7 @@ $localhost = "localhost";
 
 ### POST Arduino data to MySQL Database<br />
 1. Download arduino_post/arduino_post.ino<br />
-2. Edit `yournetwork` (wireless network), `yourpassword` (wireless password) to connect to your router<br />
+2. Edit `yournetwork` (wireless network) and `yourpassword` (wireless password) to connect to your router<br />
 ```
 char ssid[] = "yournetwork";  // your network SSID name
 char pass[] = "yourpassword"; // your network password
