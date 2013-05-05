@@ -2,13 +2,13 @@
 #include <WiFi.h>
 
 // EDIT: Change the 'ssid' and 'password' to match your network
-char ssid[] = "flux capacitor";  // your network SSID (name)
-char pass[] = "applepie"; // your network password
+char ssid[] = "yournetwork";  // wireless network name
+char password[] = "yourpassword"; // wireless password
 int status = WL_IDLE_STATUS;
 WiFiClient client;
 
 // EDIT: 'Server' address to match your domain
-char server[] = "www.ebenoit.com";
+char server[] = "www.yourdomain.com";
 
 // This is the data that will be passed into your POST and matches your mysql column
 int yourarduinodata = 999;
@@ -40,7 +40,7 @@ void connectWifi() {
   while ( status != WL_CONNECTED) {
     Serial.print("Attempting to connect to SSID: ");
     Serial.println(ssid);
-    status = WiFi.begin(ssid, pass);
+    status = WiFi.begin(ssid, password);
     // Wait 10 seconds for connection
     delay(10000);
   }
@@ -70,10 +70,10 @@ void postData() {
     Serial.println("connecting...");
 
     // EDIT: The POST 'URL' to the location of your insert_mysql.php on your web-host
-    client.println("POST /client/EJB/testdatabase/insert_mysql.php HTTP/1.1");
+    client.println("POST /insert_mysql.php HTTP/1.1");
 
     // EDIT: 'Host' to match your domain
-    client.println("Host: www.ebenoit.com");
+    client.println("Host: www.yourdomain.com");
     client.println("User-Agent: Arduino/1.0");
     client.println("Connection: close");
     client.println("Content-Type: application/x-www-form-urlencoded;");
