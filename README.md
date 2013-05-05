@@ -48,6 +48,7 @@ char password[] = "yourpassword"; // wireless password
 3. Edit `www.yourdomain.com` (for `char server[]`) to the domain you are hosting insert_mysql.php (not the full path to the file)<br />
 ```
 char server[] = "www.yourdomain.com";
+\\This could also be 192.168.1.18/~me if you are running a server on your computer on a local network.
 ```
 4. Edit the POST url to match the path to `insert_mysql.php`<br />
 ```
