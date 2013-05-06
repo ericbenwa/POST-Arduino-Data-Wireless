@@ -60,6 +60,13 @@ client.println("POST /insert_mysql.php HTTP/1.1");
 9. You should now be POSTing data from your Arduino to your MySQL database. Yippee!<br />
 <br />
 
+Enhancements
+-------------
+GET from database and display in web browser<br />
+POST multiple data points into database<br />
+<br />
+
+
 Credits
 -------------
 
