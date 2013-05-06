@@ -2,7 +2,7 @@ POST-Arduino-Data
 =================
 
 A simple way to send data from an Arduino and save it to a database (MySQL) over WiFi.<br /> 
-
+<br />
 
 Items You'll Need
 -------------
@@ -58,7 +58,7 @@ client.println("POST /insert_mysql.php HTTP/1.1");
 7. Connect your Arduino to your computer using your USB cable<br />
 8. Upload your sketch to your Arduino<br />
 9. You should now be POSTing data from your Arduino to your MySQL database. Yippee!<br />
-
+<br />
 
 Credits
 -------------
