@@ -9,7 +9,7 @@ Items You'll Need
 Arduino (Uno or similar)<br />
 Arduino WiFi Shield<br />
 USB cable for Arduino<br />
-<a href="https://github.com/ericbenwa/POST-Arduino-Data/archive/master.zip">
+<a href="https://github.com/ericbenwa/POST-Arduino-Data/archive/master.zip"><br />
 
 
 Getting Started
