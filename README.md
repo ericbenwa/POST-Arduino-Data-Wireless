@@ -1,4 +1,4 @@
-POST-Arduino-Data
+POST-Arduino-Data-Wireless
 =================
 
 A simple way to send data from an Arduino and save it to a database (MySQL) over WiFi.<br /> 
