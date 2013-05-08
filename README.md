@@ -76,6 +76,7 @@ $table = 'yourtable';
 Enhancements
 -------------
 POST multiple data points into database<br />
+Update Strings in arduino_post<br />
 <br />
 
 
