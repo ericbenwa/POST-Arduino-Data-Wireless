@@ -23,11 +23,6 @@ void setup() {
   // You're connected now, so print out the status
   printWifiStatus();
   
-  // Combine yourdatacolumn header (yourdata=) with the data recorded from your arduino
-  // (yourarduinodata) and package them into the String yourdata which is what will be
-  // sent in your POST request
-  yourdata = yourdatacolumn + yourarduinodata;
-  
   postData();
 }
 
@@ -65,6 +60,11 @@ void printWifiStatus() {
 
 // This method makes a HTTP connection to the server and POSTs data
 void postData() {
+  // Combine yourdatacolumn header (yourdata=) with the data recorded from your arduino
+  // (yourarduinodata) and package them into the String yourdata which is what will be
+  // sent in your POST request
+  yourdata = yourdatacolumn + yourarduinodata;
+
   // If there's a successful connection, send the HTTP POST request
   if (client.connect(server, 80)) {
     Serial.println("connecting...");
