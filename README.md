@@ -16,11 +16,11 @@ Getting Started
 -------------
 
 ### Setup MySQL Database<br />
-1. Create MySQL Database<br />
+1. Create MySQL Database (I used my web hosts GUI)<br />
 2. Create MySQL User<br />
 3. Give newly created MySQL User access to your newly created MySQL Database<br />
 4. Give newly created MySQL User full privileges to your newly created MySQL Database<br />
-5. Create a table for your database<br />
+5. Create a table for your database (I used my web hosts phpMyAdmin GUI)<br />
 6. Add 2 columns to your table: `yourdata`, `timestamp`<br />
 7. For timestamp column, change the `type` to `DATETIME` and the `index` to `PRIMARY`<br />
 <br />
