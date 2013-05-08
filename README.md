@@ -3,7 +3,7 @@ POST-Arduino-Data-Wireless
 
 A simple way to send data from an Arduino and save it to a database (MySQL) over WiFi.<br />
 
-This repo will give you the ability to record data on the Arduino, send and store that data wirelessly into a MySQL database, and then retrieve and view that data in the browser.<br />
+This repo will give you the ability to record data on the Arduino, send (POST) and store that data wirelessly into a MySQL database, and then retrieve and view that data in the browser.<br />
 <br />
 
 Items You'll Need
