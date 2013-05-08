@@ -60,9 +60,21 @@ client.println("POST /insert_mysql.php HTTP/1.1");
 9. You should now be POSTing data from your Arduino to your MySQL database. Yippee!<br />
 <br />
 
+### Edit DISPLAY script<br />
+1. Download `display_mysql.php`<br />
+2. Edit the `$db_user`, `$db_pwd`, `$database`, and `$table` to match your setup<br />
+```
+$db_user = 'yourdbuser';
+$db_pwd = 'yourpassword';
+$database = 'yourdatabase';
+$table = 'yourtable';
+```
+3. Upload `display_mysql.php` to your web-host (remember this URL for later)<br />
+4. You should now be able to view your database in the browser<br />
+<br />
+
 Enhancements
 -------------
-GET from database and display in web browser<br />
 POST multiple data points into database<br />
 <br />
 
@@ -73,3 +85,4 @@ Credits
 <a href="https://github.com/dk4invo">Dhaval Karwa</a><br />
 <a href="https://github.com/bsalinas">Ben Salinas</a><br />
 <a href="http://arduino.cc/en/Tutorial/WiFiWebClientRepeating">Tom Igoe's WiFiWebClientRepeating sketch</a>
+<a href="http://www.anyexample.com/programming/php/php_mysql_example__display_table_as_html.xml">Display MySQL Tutorial</a>
