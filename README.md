@@ -86,4 +86,5 @@ Credits
 <a href="https://github.com/dk4invo">Dhaval Karwa</a><br />
 <a href="https://github.com/bsalinas">Ben Salinas</a><br />
 <a href="http://arduino.cc/en/Tutorial/WiFiWebClientRepeating">Tom Igoe's WiFiWebClientRepeating sketch</a><br />
-<a href="http://www.anyexample.com/programming/php/php_mysql_example__display_table_as_html.xml">Display MySQL Tutorial</a>
+<a href="http://www.anyexample.com/programming/php/php_mysql_example__display_table_as_html.xml">Display MySQL Tutorial</a><br />
+1% to me.
