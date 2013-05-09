@@ -6,9 +6,9 @@ In less than 60 minutes, this repo will give you the ability to record data on t
 
 Items You'll Need
 -------------
-Arduino (Uno or similar)<br />
-Arduino WiFi Shield<br />
-USB cable for Arduino<br />
+<a href="http://arduino.cc/en/Main/arduinoBoardUno">Arduino (Uno or similar)</a><br />
+<a href="http://arduino.cc/en/Main/ArduinoWiFiShield">Arduino WiFi Shield</a><br />
+<a href="http://www.adafruit.com/products/62">USB cable for Arduino</a><br />
 <a href="https://github.com/ericbenwa/POST-Arduino-Data/archive/master.zip"><br />
 
 
