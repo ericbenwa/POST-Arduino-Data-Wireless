@@ -35,7 +35,7 @@ $database = "test_db_name_here";
 $tablename = "test_table_name_here";
 $localhost = "localhost";
 ```
-3. Upload `insert_mysql.php` to your web-host (remember this URL for later)<br />
+3. Upload `insert_mysql.php` to your web host (remember this URL for later)<br />
 <br />
 
 ### POST Arduino data to MySQL Database<br />
